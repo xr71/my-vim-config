@@ -30,6 +30,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 Plugin 'scrooloose/nerdtree' 
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -56,6 +57,8 @@ set history=500
 syntax enable
 set background=dark
 
+" show vertical column at 80
+set colorcolumn=80
 
 " tab stuff
 " use spaces instead of tabs
