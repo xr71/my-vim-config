@@ -31,9 +31,12 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/nerdtree' 
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'chrisbra/csv.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
+
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -69,10 +72,6 @@ set smarttab
 
 " turnoff terrible beep sound!
 set visualbell
-
-" enables filetype plugins
-filetype plugin on
-filetype indent on
 
 " show current position
 set ruler
