@@ -32,6 +32,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'chrisbra/csv.vim'
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -86,5 +87,8 @@ let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  guibg=DarkGrey   ctermbg=DarkGrey
 hi IndentGuidesEven guibg=LightGrey   ctermbg=LightGrey
 let g:indent_guides_start_level=1
-let g:indent_guides_guide_size=2
+let g:indent_guides_guide_size=1
 
+" spacechar guide
+" set list
+" set listchars+=space:*
