@@ -92,3 +92,5 @@ let g:indent_guides_guide_size=1
 " spacechar guide
 " set list
 " set listchars+=space:*
+
+set hlsearch
