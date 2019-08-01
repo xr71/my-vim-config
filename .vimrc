@@ -94,4 +94,20 @@ let g:indent_guides_guide_size=1
 " set list
 " set listchars+=space:*
 
+" highlight all search matches
 set hlsearch
+
+" toggle relative numbering, and set to absolute on loss of focus or insert mode
+set rnu
+function! ToggleNumbersOn()
+    set nu!
+    set rnu
+endfunction
+function! ToggleRelativeOn()
+    set rnu!
+    set nu
+endfunction
+autocmd FocusLost * call ToggleRelativeOn()
+autocmd FocusGained * call ToggleRelativeOn()
+autocmd InsertEnter * call ToggleRelativeOn()
+autocmd InsertLeave * call ToggleRelativeOn()
