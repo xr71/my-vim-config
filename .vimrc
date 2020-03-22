@@ -28,13 +28,20 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 
-Plugin 'scrooloose/nerdtree' 
+Plugin 'scrooloose/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'chrisbra/csv.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'maxmellon/vim-jsx-pretty'
+Plugin 'godlygeek/tabular'
+Plugin 'morhetz/gruvbox'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'python-mode/python-mode'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 
 " All of your Plugins must be added before the following line
@@ -63,6 +70,7 @@ set history=500
 " syntax coloring stuff
 syntax enable
 set background=dark
+colorscheme gruvbox
 
 " show vertical column at 80
 set colorcolumn=80
@@ -80,14 +88,13 @@ set visualbell
 " show current position
 set ruler
 " command input height is expanded
-set cmdheight=2
+set cmdheight=1
 
 
 " IndentGuides options
 let g:indent_guides_enable_on_vim_startup = 1
-colorscheme default
 let g:indent_guides_auto_colors = 0
-hi IndentGuidesOdd  guibg=DarkGrey   ctermbg=DarkGrey
+hi IndentGuidesOdd  guibg=LightGrey   ctermbg=LightGrey
 hi IndentGuidesEven guibg=LightGrey   ctermbg=LightGrey
 let g:indent_guides_start_level=1
 let g:indent_guides_guide_size=1
