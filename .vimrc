@@ -39,10 +39,10 @@ Plugin 'godlygeek/tabular'
 Plugin 'morhetz/gruvbox'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'python-mode/python-mode'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -100,8 +100,9 @@ let g:indent_guides_start_level=1
 let g:indent_guides_guide_size=1
 
 " spacechar guide
-" set list
-" set listchars+=space:*
+set list
+set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
+set listchars+=space:•
 
 " highlight all search matches
 set hlsearch
