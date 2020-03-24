@@ -46,6 +46,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tc50cal/vim-terminal'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'udalov/kotlin-vim'
+Plugin 'fatih/vim-go'
 
 
 " All of your Plugins must be added before the following line
