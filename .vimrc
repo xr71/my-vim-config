@@ -43,6 +43,10 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tc50cal/vim-terminal'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'udalov/kotlin-vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
