@@ -30,7 +30,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 
-Plugin 'scrooloose/nerdtree'
+
+" Plugin 'scrooloose/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'chrisbra/csv.vim'
@@ -130,4 +131,4 @@ autocmd FocusGained * call ToggleRelativeOn()
 autocmd InsertEnter * call ToggleRelativeOn()
 autocmd InsertLeave * call ToggleRelativeOn()
 
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
