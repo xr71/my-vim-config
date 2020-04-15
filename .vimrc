@@ -46,8 +46,9 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tc50cal/vim-terminal'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'udalov/kotlin-vim'
+Plugin 'voldikss/vim-floaterm'
 Plugin 'fatih/vim-go'
-
+Plugin 'artur-shaik/vim-javacomplete2'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
