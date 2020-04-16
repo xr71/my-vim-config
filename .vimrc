@@ -52,6 +52,8 @@ Plugin 'udalov/kotlin-vim'
 Plugin 'voldikss/vim-floaterm'
 Plugin 'fatih/vim-go'
 Plugin 'artur-shaik/vim-javacomplete2'
+Plugin 'kien/ctrlp.vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -138,9 +140,9 @@ let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
-let g:netrw_winsize = 25
-augroup ProjectDrawer
-    autocmd!
-    autocmd VimEnter * :Vexplore
-augroup END
+let g:netrw_winsize = 18
+" augroup ProjectDrawer
+"     autocmd!
+"     autocmd VimEnter * :Vexplore
+" augroup END
 
