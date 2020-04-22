@@ -146,3 +146,5 @@ let g:netrw_winsize = 18
 "     autocmd VimEnter * :Vexplore
 " augroup END
 
+" set default split behaviors
+set splitbelow splitright
