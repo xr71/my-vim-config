@@ -1,4 +1,15 @@
+" __  ___   _   ____  _____ _   _
+" \ \/ / | | | |  _ \| ____| \ | |
+"  \  /| | | | | |_) |  _| |  \| |
+"  /  \| |_| | |  _ <| |___| |\  |
+" /_/\_\\___/  |_| \_\_____|_| \_|
+"
+" .vimrc file
+
 set shell=bash
+
+" settings for auto format options like auto comment new line
+set formatoptions-=ro
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -148,3 +159,4 @@ let g:netrw_winsize = 18
 
 " set default split behaviors
 set splitbelow splitright
+
