@@ -26,7 +26,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Fuzzy find files
 Plug 'ctrlpvim/ctrlp.vim'
 
-" multiple cursors 
+" multiple cursors
 Plug 'terryma/vim-multiple-cursors'
 
 " Working with tags
@@ -46,7 +46,7 @@ Plug 'unblevable/quick-scope'
 Plug 'voldikss/vim-floaterm'
 Plug 'airblade/vim-gitgutter'
 
-" Languages 
+" Languages
 Plug 'fatih/vim-go'
 Plug 'yuezk/vim-js'
 Plug 'derekwyatt/vim-scala'
@@ -56,8 +56,8 @@ Plug 'vim-syntastic/syntastic'
 " Plug 'python-mode/python-mode'
 " Plug 'davidhalter/jedi-vim'
 
-" Work with csv files 
-Plugin 'chrisbra/csv.vim'
+" Work with csv files
+Plug 'chrisbra/csv.vim'
 
 
 call plug#end()
