@@ -35,6 +35,8 @@ Plug 'tpope/vim-surround'
 
 " Commenting
 Plug 'tpope/vim-commentary'
+Plug 'godlygeek/tabular'
+Plug 'ntpeters/vim-better-whitespace'
 
 " Syntax highlighting
 Plug 'maxmellon/vim-jsx-pretty'
@@ -48,8 +50,14 @@ Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
 Plug 'yuezk/vim-js'
 Plug 'derekwyatt/vim-scala'
-Plug 'python-mode/python-mode'
-Plug 'davidhalter/jedi-vim'
+Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'artur-shaik/vim-javacomplete2'
+Plug 'vim-syntastic/syntastic'
+" Plug 'python-mode/python-mode'
+" Plug 'davidhalter/jedi-vim'
+
+" Work with csv files 
+Plugin 'chrisbra/csv.vim'
 
 
 call plug#end()
