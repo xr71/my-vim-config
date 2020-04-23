@@ -26,7 +26,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Fuzzy find files
 Plug 'ctrlpvim/ctrlp.vim'
 
-" This objectively makes vim better
+" multiple cursors 
 Plug 'terryma/vim-multiple-cursors'
 
 " Working with tags
@@ -48,8 +48,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
 Plug 'yuezk/vim-js'
 Plug 'derekwyatt/vim-scala'
-Plugin 'python-mode/python-mode'
-Plugin 'davidhalter/jedi-vim'
+Plug 'python-mode/python-mode'
+Plug 'davidhalter/jedi-vim'
 
 
 call plug#end()
