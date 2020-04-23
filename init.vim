@@ -53,8 +53,9 @@ Plug 'derekwyatt/vim-scala'
 Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'artur-shaik/vim-javacomplete2'
 Plug 'vim-syntastic/syntastic'
-" Plug 'python-mode/python-mode'
+" let Coc handle python language server
 " Plug 'davidhalter/jedi-vim'
+" Plug 'python-mode/python-mode'
 
 " Work with csv files
 Plug 'chrisbra/csv.vim'
