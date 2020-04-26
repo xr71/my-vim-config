@@ -17,8 +17,7 @@ Sourced from: https://github.com/VundleVim/Vundle.vim
 Create a file at:
 `~/.config/nvim/init.vim`
 
-Place the following in that file:
-
+Place the following in that file: if you want to use your vim rc, otherwise set up init.vim for NeoVim
 ```
 set runtimepath+=~/.vim,~/.vim/after
 set packpath+=~/.vim
