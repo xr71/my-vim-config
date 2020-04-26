@@ -17,8 +17,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tomasiser/vim-code-dark'
 Plug 'morhetz/gruvbox'
 
-" Center text
+" Working with text
 Plug 'junegunn/goyo.vim'
+Plug 'chrisbra/csv.vim'
 
 " Code Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -32,6 +33,7 @@ Plug 'terryma/vim-multiple-cursors'
 " Working with tags
 Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 
 " Commenting
 Plug 'tpope/vim-commentary'
