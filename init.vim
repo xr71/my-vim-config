@@ -21,6 +21,9 @@ Plug 'morhetz/gruvbox'
 Plug 'junegunn/goyo.vim'
 Plug 'chrisbra/csv.vim'
 
+" Working with indents
+Plug 'Yggdroot/indentLine'
+
 " Code Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
