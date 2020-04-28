@@ -169,3 +169,6 @@ let g:netrw_winsize = 18
 " set default split behaviors
 set splitbelow splitright
 
+" turn off go warning
+let g:go_version_warning = 0
+
