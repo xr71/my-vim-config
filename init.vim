@@ -14,7 +14,6 @@ call plug#begin('~/local/share/nvim/plugged')
 " Themes
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'tomasiser/vim-code-dark'
 Plug 'morhetz/gruvbox'
 
 " fuzzy searching
@@ -23,8 +22,6 @@ Plug 'junegunn/fzf.vim'
 
 " Git integration (status bar and commands like Gblame)
 Plug 'tpope/vim-fugitive'
-" Add info to sidebar about git
-Plug 'airblade/vim-gitgutter'
 " Add file-management commands like :Delete, :Move, and :Rename
 Plug 'tpope/vim-eunuch'
 
@@ -36,7 +33,7 @@ Plug 'chrisbra/csv.vim'
 Plug 'Yggdroot/indentLine'
 
 " Code Completion
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Fuzzy find files
 Plug 'ctrlpvim/ctrlp.vim'
@@ -66,9 +63,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
 Plug 'yuezk/vim-js'
 Plug 'derekwyatt/vim-scala'
-Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'artur-shaik/vim-javacomplete2'
 Plug 'vim-syntastic/syntastic'
+" Plug 'deoplete-plugins/deoplete-jedi'
 " let Coc handle python language server
 " Plug 'davidhalter/jedi-vim'
 " Plug 'python-mode/python-mode'
