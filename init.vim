@@ -17,6 +17,17 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tomasiser/vim-code-dark'
 Plug 'morhetz/gruvbox'
 
+" fuzzy searching
+Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
+Plug 'junegunn/fzf.vim'
+
+" Git integration (status bar and commands like Gblame)
+Plug 'tpope/vim-fugitive'
+" Add info to sidebar about git
+Plug 'airblade/vim-gitgutter'
+" Add file-management commands like :Delete, :Move, and :Rename
+Plug 'tpope/vim-eunuch'
+
 " Working with text
 Plug 'junegunn/goyo.vim'
 Plug 'chrisbra/csv.vim'
