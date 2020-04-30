@@ -17,8 +17,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 
 " fuzzy searching
-Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
+" Plug 'junegunn/fzf.vim'
 
 " Git integration (status bar and commands like Gblame)
 Plug 'tpope/vim-fugitive'
@@ -28,6 +28,7 @@ Plug 'tpope/vim-eunuch'
 " Working with text
 Plug 'junegunn/goyo.vim'
 Plug 'chrisbra/csv.vim'
+Plug 'godlygeek/tabular'
 
 " Working with indents
 Plug 'Yggdroot/indentLine'
@@ -42,13 +43,12 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'terryma/vim-multiple-cursors'
 
 " Working with tags
-Plug 'alvan/vim-closetag'
-Plug 'tpope/vim-surround'
+" Plug 'alvan/vim-closetag'
+" Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 
 " Commenting
 Plug 'tpope/vim-commentary'
-Plug 'godlygeek/tabular'
 Plug 'ntpeters/vim-better-whitespace'
 
 " Syntax highlighting
@@ -63,12 +63,13 @@ Plug 'airblade/vim-gitgutter'
 Plug 'fatih/vim-go'
 Plug 'yuezk/vim-js'
 Plug 'derekwyatt/vim-scala'
-Plug 'artur-shaik/vim-javacomplete2'
+Plug 'udalov/kotlin-vim'
+" Plug 'artur-shaik/vim-javacomplete2'
 Plug 'vim-syntastic/syntastic'
 " Plug 'deoplete-plugins/deoplete-jedi'
 " let Coc handle python language server
 " Plug 'davidhalter/jedi-vim'
-" Plug 'python-mode/python-mode'
+Plug 'python-mode/python-mode'
 
 " Work with csv files
 Plug 'chrisbra/csv.vim'
