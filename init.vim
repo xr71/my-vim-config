@@ -30,6 +30,13 @@ Plug 'junegunn/goyo.vim'
 Plug 'chrisbra/csv.vim'
 Plug 'godlygeek/tabular'
 
+" Distraction free
+Plug 'junegunn/goyo.vim'
+
+" Markdown files
+Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+
 " Working with indents
 Plug 'Yggdroot/indentLine'
 
