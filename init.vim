@@ -57,7 +57,7 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'unblevable/quick-scope'
 Plug 'voldikss/vim-floaterm'
-Plug 'airblade/vim-gitgutter'
+" Plug 'airblade/vim-gitgutter'
 
 " Languages
 Plug 'fatih/vim-go'
