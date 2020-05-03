@@ -72,14 +72,11 @@ Plug 'yuezk/vim-js'
 Plug 'derekwyatt/vim-scala'
 Plug 'udalov/kotlin-vim'
 " Plug 'artur-shaik/vim-javacomplete2'
-Plug 'vim-syntastic/syntastic'
+" Plug 'vim-syntastic/syntastic'
 " Plug 'deoplete-plugins/deoplete-jedi'
 " let Coc handle python language server
 " Plug 'davidhalter/jedi-vim'
 Plug 'python-mode/python-mode'
-
-" Work with csv files
-Plug 'chrisbra/csv.vim'
 
 
 call plug#end()
@@ -176,4 +173,7 @@ set splitbelow splitright
 
 " turn off go warning
 let g:go_version_warning = 0
+
+" do not conceal markdown
+let g:vim_markdown_conceal = 0
 
