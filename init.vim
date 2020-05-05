@@ -41,7 +41,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'Yggdroot/indentLine'
 
 " Code Completion
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Fuzzy find files
 Plug 'ctrlpvim/ctrlp.vim'
@@ -64,7 +64,7 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'unblevable/quick-scope'
 Plug 'voldikss/vim-floaterm'
-" Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 
 " Languages
 Plug 'fatih/vim-go'
@@ -76,7 +76,7 @@ Plug 'udalov/kotlin-vim'
 " Plug 'deoplete-plugins/deoplete-jedi'
 " let Coc handle python language server
 " Plug 'davidhalter/jedi-vim'
-Plug 'python-mode/python-mode'
+" Plug 'python-mode/python-mode'
 
 
 call plug#end()
