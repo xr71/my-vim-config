@@ -16,6 +16,10 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'morhetz/gruvbox'
 
+" windows and menus
+Plug 'dstein64/vim-menu'
+Plug 'dstein64/vim-win'
+
 " fuzzy searching
 " Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
 " Plug 'junegunn/fzf.vim'
