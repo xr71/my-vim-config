@@ -60,6 +60,8 @@ Plug 'ntpeters/vim-better-whitespace'
 
 " Syntax highlighting
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'unblevable/quick-scope'
@@ -68,9 +70,9 @@ Plug 'airblade/vim-gitgutter'
 
 " Languages
 Plug 'fatih/vim-go'
-Plug 'yuezk/vim-js'
 Plug 'derekwyatt/vim-scala'
 Plug 'udalov/kotlin-vim'
+
 " Plug 'artur-shaik/vim-javacomplete2'
 " Plug 'vim-syntastic/syntastic'
 " Plug 'deoplete-plugins/deoplete-jedi'
